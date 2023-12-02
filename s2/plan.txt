@@ -1,0 +1,57 @@
+les variables : 
+
+nom_variable = valeur;
+
+var let const 
+
+const => constantes
+
+{
+    var a = 5;
+    let b = 3;
+}
+
+let ??
+
+a est accessible
+b non accessible
+
+les types des variables : 
+
+number ( int entier 12 -140 / float 12.6)
+boolean (true false ) isConnected = false
+string ( 'hi dev' "hi dev")
+undefined
+
+js est faiblement typé ???
+{
+    a = 5;
+    a = "nadir";
+}
+
+vs fortement type (java c# ...)
+{
+    int a = 5;
+    a = "nadir" => error
+}
+
+ex1:
+a = 3; 
+a = 5; // a=5
+
+ex2:
+a = 3;
+a += 5; // a = a + 5 = 3 + 5 = 8
+
+var a = 5;
+var b = 3;
+var c= a + b;
+
+console.log(c) // 8 : addition
+
+var a = "hi";
+a+= "-" // a = a + "-" = "hi" + "-" = "hi-"
+var b = " dev101";
+var c= a + b;
+
+console.log(c) // "hi-dev101" : concatenation
