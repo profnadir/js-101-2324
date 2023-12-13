@@ -1,0 +1,6 @@
+M105 Programmer en JS
+
+les notions de bases : variables type de donnees 
+manipulation de la partie html : document.getElementById('id')
+les operations en JS : + - / modulo >< ||  && == ===
+
